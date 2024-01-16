@@ -23,17 +23,22 @@ vim.opt.smarttab = true
 vim.opt.mouse = "a"
 vim.opt.incsearch = true
 vim.opt.termguicolors = false
-vim.cmd("tab all")
-vim.cmd("syntax on")
+vim.cmd[[tab all]]
+vim.cmd[[syntax on]]
 vim.cmd[[colorscheme dracula]]
 
 -- ------------------------------
 -- ---------VIM-MAPPINGS---------
 -- ------------------------------
-vim.g.mapleader = "<Space>"
+vim.g.mapleader = " "
 
-vim.keymap.set("n", "<leader-ww>", vim.cmd(":tabnext"), { remap = true })
-vim.keymap.set("n", "<F4>", ":nohl<Cr>", { silent = true })
+vim.keymap.set("n", "<leader>ww", vim.cmd.tabnext, { noremap = true })
+vim.keymap.set("n", "<leader>wn", vim.cmd.tabnew, { noremap = true })
+vim.keymap.set("n", "<leader>wc", vim.cmd.tabclose, { noremap = true })
+vim.keymap.set("n", "<leader>ws", '<cmd>w!<cr>', { noremap = true })
+vim.keymap.set("n", "<leader>wq", '<cmd>q<cr>', { noremap = true })
+vim.keymap.set("n", "<leader>e", vim.cmd.Ex, { noremap = true })
+vim.keymap.set("n", "<F4>", ":nohl<Cr>", { silent = true, noremap = true })
 
 
 if vim.bo.filetype == 'tex' then

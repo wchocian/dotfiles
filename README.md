@@ -40,5 +40,5 @@ git clone https://github.com/wchocian/dotfiles.git
 
 ## Using script
 ```
-./dotfiles/link.sh
+./link.sh
 ```

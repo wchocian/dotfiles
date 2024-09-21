@@ -1,0 +1,7 @@
+[user]
+	name = wchocian
+	email = 131073663+wchocian@users.noreply.github.com
+[http]
+	postBuffer = 524288000
+[credential]
+	helper = cache

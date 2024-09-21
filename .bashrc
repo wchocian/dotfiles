@@ -12,6 +12,23 @@ export XDG_CACHE_HOME="$HOME"/.cache
 export XDG_STATE_HOME="$HOME"/.local/state
 export XDG_DATA_HOME="$HOME"/.local/share
 
+export LESSHISTFILE=-
+export ZDOTDIR=$XDG_CONFIG_HOME/zsh
+export WGETRC="$XDG_CONFIG_HOME"/wgetrc
+export PYTHON_HISTORY=$XDG_STATE_HOME/python/history
+export WINEPREFIX="$XDG_DATA_HOME"/wineprefixes/default
+export MPLAYER_HOME="$XDG_CONFIG_HOME"/mplayer
+export TEXMFHOME=$XDG_DATA_HOME/texmf
+export TEXMFVAR=$XDG_CACHE_HOME/texlive/texmf-var
+export TEXMFCONFIG=$XDG_CONFIG_HOME/texlive/texmf-config
+export PLATFORMIO_CORE_DIR="$XDG_DATA_HOME"/platformio
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
+export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
+
+alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"'
+alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'
+alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
+
 # don't put duplicate lines or lines starting with space in the history.
 HISTCONTROL=ignoreboth
 

@@ -82,7 +82,7 @@ chkpath "$XDG_CONFIG_HOME/fontconfig"
 
 # npmrc
 chkpath "$XDG_CONFIG_HOME/npm"
-linkcf "$(pwd)/npmrc" "$NPM_CONFIG_USERCONFIG"
+linkcf "$(pwd)/.config/npm/npmrc" "$NPM_CONFIG_USERCONFIG"
 
 # .gitconfig
 chkpath "$XDG_CONFIG_HOME/git"

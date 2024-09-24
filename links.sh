@@ -89,4 +89,7 @@ linkcf "$(pwd)/.config/npm/npmrc" "$NPM_CONFIG_USERCONFIG"
 chkpath "$XDG_CONFIG_HOME/git"
 linkcf "$(pwd)/.config/git/config" "$XDG_CONFIG_HOME/git/config"
 
+# nvidia-setting
+chkpath "$XDG_CONFIG_HOME/nvidia"
+
 echo $'Finished linking process.'

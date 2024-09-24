@@ -46,4 +46,22 @@ alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'
 
 # moc
 alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
+
+# gnupg
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+
+# dotnet
+export DOTNET_CLI_HOME="$XDG_DATA_HOME"/dotnet
+
+# nvidia-settings
+alias nvidia-settings='nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settings'
+
+# bundle
+export BUNDLE_USER_CONFIG="$XDG_CONFIG_HOME"/bundle
+export BUNDLE_USER_CACHE="$XDG_CACHE_HOME"/bundle
+export BUNDLE_USER_PLUGIN="$XDG_DATA_HOME"/bundle
+
+# mvn
+alias mvn='mvn -gs "$XDG_CONFIG_HOME"/maven/settings.xml'
+
 # -----------------------------------------------------------------------------

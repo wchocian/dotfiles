@@ -59,10 +59,11 @@ case $RESPONSE in
 esac
 
 # .bashrc
+chkpath "$HOME/.config/bash"
 linkcf "$(pwd)/.bashrc" "$HOME/.bashrc"
-
-# Source changed .bashrc before linking other configs
-source "$HOME/.bashrc"
+linkcf "$(pwd)/.config/bash/bash_variables.sh" "$HOME/.config/bash/bash_variables.sh"
+# Source env variables before linking other configs
+source "$HOME/.config/bash/bash_variables.sh"
 chkpath "$XDG_STATE_HOME/bash"
 
 # mocp

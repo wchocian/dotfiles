@@ -69,6 +69,9 @@ set wildmode=list:longest
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
+" Do not keep .viminfo file
+set viminfo="NONE"
+
 " PLUGINS ---------------------------------------------------------------- {{{
 
 call plug#begin('~/.config/vim/plugged')

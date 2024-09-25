@@ -116,4 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source "$HOME/.config/bash/bash_variables.sh"
+source "$HOME/.config/shell/env_vars.sh"
+source "$HOME/.config/shell/aliases.sh"

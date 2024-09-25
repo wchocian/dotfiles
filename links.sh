@@ -59,11 +59,13 @@ case $RESPONSE in
 esac
 
 # .bashrc
-chkpath "$HOME/.config/bash"
+chkpath "$HOME/.config/shell"
 linkcf "$(pwd)/.bashrc" "$HOME/.bashrc"
-linkcf "$(pwd)/.config/bash/bash_variables.sh" "$HOME/.config/bash/bash_variables.sh"
+linkcf "$(pwd)/.config/shell/env_vars.sh" "$HOME/.config/shell/env_vars.sh"
+linkcf "$(pwd)/.config/shell/aliases.sh" "$HOME/.config/shell/aliases.sh"
 # Source env variables before linking other configs
-source "$HOME/.config/bash/bash_variables.sh"
+source "$HOME/.config/shell/env_vars.sh"
+source "$HOME/.config/shell/aliases.sh"
 chkpath "$XDG_STATE_HOME/bash"
 
 # mocp
@@ -73,6 +75,7 @@ linkcf "$(pwd)/.config/moc/config" "$XDG_CONFIG_HOME/moc/config"
 # vim
 chkpath "$XDG_CONFIG_HOME/vim"
 chkpath "$XDG_CONFIG_HOME/vim/autoload"
+chkpath "$XDG_DATA_HOME/vim"
 linkcf "$(pwd)/.config/vim/vimrc" "$XDG_CONFIG_HOME/vim/vimrc"
 linkcf "$(pwd)/.config/vim/autoload/plug.vim" "$XDG_CONFIG_HOME/vim/autoload/plug.vim"
 
@@ -93,5 +96,8 @@ linkcf "$(pwd)/.config/git/config" "$XDG_CONFIG_HOME/git/config"
 
 # nvidia-setting
 chkpath "$XDG_CONFIG_HOME/nvidia"
+
+# pki
+chkpath "$XDG_DATA_HOME/pki"
 
 echo $'Finished linking process.'

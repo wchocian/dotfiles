@@ -13,7 +13,6 @@ export ZDOTDIR=$XDG_CONFIG_HOME/zsh
 
 # wget
 export WGETRC="$XDG_CONFIG_HOME"/wgetrc
-alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"'
 
 # python
 export PYTHON_HISTORY=$XDG_STATE_HOME/python/history
@@ -41,29 +40,16 @@ export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 # bash history
 export HISTFILE="$XDG_STATE_HOME"/bash/history
 
-# yarn
-alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'
-
-# moc
-alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc'
-
 # gnupg
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 
 # dotnet
 export DOTNET_CLI_HOME="$XDG_DATA_HOME"/dotnet
 
-# nvidia-settings
-alias nvidia-settings='nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settings'
-
 # bundle
 export BUNDLE_USER_CONFIG="$XDG_CONFIG_HOME"/bundle
 export BUNDLE_USER_CACHE="$XDG_CACHE_HOME"/bundle
 export BUNDLE_USER_PLUGIN="$XDG_DATA_HOME"/bundle
-
-# mvn
-alias mvn='mvn -gs "$XDG_CONFIG_HOME"/maven/settings.xml'
-
 # -----------------------------------------------------------------------------
 
 # Homebrew

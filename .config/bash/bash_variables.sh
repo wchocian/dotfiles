@@ -65,3 +65,6 @@ export BUNDLE_USER_PLUGIN="$XDG_DATA_HOME"/bundle
 alias mvn='mvn -gs "$XDG_CONFIG_HOME"/maven/settings.xml'
 
 # -----------------------------------------------------------------------------
+
+# Homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

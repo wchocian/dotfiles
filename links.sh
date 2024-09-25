@@ -72,7 +72,9 @@ linkcf "$(pwd)/.config/moc/config" "$XDG_CONFIG_HOME/moc/config"
 
 # vim
 chkpath "$XDG_CONFIG_HOME/vim"
+chkpath "$XDG_CONFIG_HOME/vim/autoload"
 linkcf "$(pwd)/.config/vim/vimrc" "$XDG_CONFIG_HOME/vim/vimrc"
+linkcf "$(pwd)/.config/vim/autoload/plug.vim" "$XDG_CONFIG_HOME/vim/autoload/plug.vim"
 
 # audacity
 chkpath "$XDG_CONFIG_HOME/audacity"

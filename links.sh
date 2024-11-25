@@ -79,6 +79,13 @@ chkpath "$XDG_DATA_HOME/vim"
 linkcf "$(pwd)/.config/vim/vimrc" "$XDG_CONFIG_HOME/vim/vimrc"
 linkcf "$(pwd)/.config/vim/autoload/plug.vim" "$XDG_CONFIG_HOME/vim/autoload/plug.vim"
 
+# nvim
+chkpath "$XDG_CONFIG_HOME/nvim"
+chkpath "$XDG_CONFIG_HOME/nvim/autoload"
+chkpath "$XDG_DATA_HOME/nvim"
+linkcf "$(pwd)/.config/nvim/init.vim" "$XDG_CONFIG_HOME/nvim/init.vim"
+linkcf "$(pwd)/.config/nvim/autoload/plug.vim" "$XDG_CONFIG_HOME/nvim/autoload/plug.vim"
+
 # audacity
 chkpath "$XDG_CONFIG_HOME/audacity"
 chkpath "$XDG_DATA_HOME/audacity"

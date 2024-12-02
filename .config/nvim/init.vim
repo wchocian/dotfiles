@@ -99,6 +99,8 @@ Plug 'sbdchd/neoformat'
 
 Plug 'norcalli/nvim-colorizer.lua' " Color codes
 
+Plug 'dracula/vim', { 'as': 'dracula' }
+
 call plug#end() 
 
 " }}}

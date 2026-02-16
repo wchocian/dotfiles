@@ -1,0 +1,14 @@
+{
+  "IS_MAXIMIZED": true,
+  "IS_MINIMIZED": false,
+  "WINDOW_BOUNDS": {
+    "x": 4,
+    "y": 546,
+    "width": 1912,
+    "height": 500
+  },
+  "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true,
+  "SKIP_HOST_UPDATE": true,
+  "chromiumSwitches": {},
+  "BACKGROUND_COLOR": "#2c2d32"
+}

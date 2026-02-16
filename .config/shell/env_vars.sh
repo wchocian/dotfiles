@@ -51,7 +51,19 @@ export BUNDLE_USER_CONFIG="$XDG_CONFIG_HOME"/bundle
 export BUNDLE_USER_CACHE="$XDG_CACHE_HOME"/bundle
 export BUNDLE_USER_PLUGIN="$XDG_DATA_HOME"/bundle
 
-# git
-export GIT_EDITOR=nvim
+# -----------------------------------------------------------------------------
+# PATH
+
+export PATH="$PATH:$HOME/.local/bin/"
+export PATH="$PATH:$HOME/.local/bin/nvim-linux-x86_64/bin/"
 
 # -----------------------------------------------------------------------------
+# EDITORS
+
+export EDITOR=nvim
+export GIT_EDITOR=nvim
+export VISUAL=cursor
+
+# -----------------------------------------------------------------------------
+# OTHER
+export STM32_PRG_PATH=/home/wchocian/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin

@@ -1,0 +1,541 @@
+{
+    "workbench.colorTheme": "Dracula Theme",
+    "plantuml.jar": "/home/wchocian/.local/bin/plantuml-1.2023.4.jar",
+    "latex-workshop.latex.autoBuild.run": "never",
+    "editor.minimap.enabled": false,
+    "cSpell.language": "en, pl",
+    "cSpell.userWords": [
+        "amplitudowa",
+        "amplitudową",
+        "amplitudowe",
+        "amplitudowego",
+        "antyprzyczynowy",
+        "antyrefleksu",
+        "antyrefleksyjne",
+        "antyrefleksyjnej",
+        "bateryjnie",
+        "bezodbiciowa",
+        "bezpromieniście",
+        "beztransformatorowe",
+        "biosygnałów",
+        "bootowania",
+        "Bragga",
+        "Braggowskie",
+        "Brewstera",
+        "BSAT",
+        "Chocianowicz",
+        "Cramera",
+        "deembedding",
+        "Dekapsulacja",
+        "Demotywowanie",
+        "Detekcyjność",
+        "dwukrotność",
+        "dwuportowa",
+        "dwuwrotnika",
+        "dwuwyjściowym",
+        "Ebbinghausa",
+        "emiterowego",
+        "Fabless",
+        "Fotoniczne",
+        "fotoniczny",
+        "GPIO",
+        "GPIOD",
+        "Hemisferyczny",
+        "ifft",
+        "implementacyjne",
+        "indexem",
+        "Inicjalizacja",
+        "inicjalizacji",
+        "inicjalizująca",
+        "inicjalizuje",
+        "inkrementację",
+        "inkrementowana",
+        "inkrementowaną",
+        "inkrementowania",
+        "jednodecybelowej",
+        "jednoportowa",
+        "jednosekcyjnego",
+        "jednotranzystorowego",
+        "jednotranzystorowy",
+        "jednotranzystorowym",
+        "Kasjanowicz",
+        "końcowo",
+        "konfiguratorze",
+        "Krótkoterminowość",
+        "krotnie",
+        "Laskus",
+        "małosygnałową",
+        "małosygnałowe",
+        "małosygnałowego",
+        "małosygnałowej",
+        "małosygnałowy",
+        "małosygnałowym",
+        "MCXO",
+        "metamateriał",
+        "międzykanałowych",
+        "międzyszczytowa",
+        "międzyszczytową",
+        "międzyszczytowego",
+        "międzyszczytowej",
+        "MIKEL",
+        "mikrobolometryczne",
+        "mikrokanalikowa",
+        "mikrokontroler",
+        "mikrokontrolera",
+        "mikrokontrolerem",
+        "mikrokontrolerze",
+        "Minipodręcznik",
+        "mocową",
+        "monostabilnego",
+        "monostabilny",
+        "MOSFET",
+        "MRAM",
+        "mydarkgreen",
+        "mygreen",
+        "NANDO",
+        "niskoczęstotliwościowe",
+        "niskoczęstotliwościowego",
+        "niskoczęstotliwościowych",
+        "numpy",
+        "Obrazowód",
+        "obrazowodów",
+        "OCXO",
+        "odmontowanie",
+        "odszumić",
+        "odszumiona",
+        "OSAT",
+        "oscylacyjno",
+        "packagingu",
+        "Paralleler",
+        "Parsevala",
+        "Płaskorównoległy",
+        "pnpn",
+        "Podbloki",
+        "podwajacza",
+        "pomiarowo",
+        "pomijalnie",
+        "prądowo",
+        "Prokrastynacja",
+        "prokrastynacji",
+        "prokrastynuje",
+        "prototypowaniu",
+        "przeciwfazie",
+        "przenaszalne",
+        "Quartus",
+        "renamer",
+        "różnicowo",
+        "róźnicowy",
+        "rozpływowe",
+        "RRAM",
+        "samoutrzymującej",
+        "semihostingu",
+        "smartfonową",
+        "Sprawczość",
+        "sprawczości",
+        "Sprzęgacz",
+        "sprzęgacza",
+        "Sprzęgacze",
+        "sprzęgaczem",
+        "sprzęgaczu",
+        "sprzęgaczy",
+        "środkowoprzepustowego",
+        "środkowoprzepustowy",
+        "środkowozaporowego",
+        "stałoprądową",
+        "stałoprądowej",
+        "strzałkowane",
+        "strzałkowanym",
+        "strzałkując",
+        "tantalan",
+        "Targos",
+        "TCXO",
+        "temperaturowo",
+        "termoprzewodzącej",
+        "testowalne",
+        "transimpedancyjnej",
+        "transkonduktancja",
+        "transkonduktancję",
+        "transkonduktancji",
+        "Tretter",
+        "Trettera",
+        "trójglicyny",
+        "trzystanowego",
+        "UART",
+        "upodatnia",
+        "walidowana",
+        "wchocian",
+        "wibracyjnie",
+        "wielkosygnałowych",
+        "wielotranzystorowy",
+        "wielozłączowe",
+        "WSYW",
+        "wszechprzepustowego",
+        "wszechprzepustowy",
+        "wszechprzepustowym",
+        "wzmocnieniowe",
+        "zainicjalizowano",
+        "zaszumionego",
+        "zdemodulowanego",
+        "zdemodulowany",
+        "Zenera"
+    ],
+    "git.openRepositoryInParentFolders": "never",
+    "java.configuration.runtimes": [
+        {},
+        {
+            "name": "JavaSE-19",
+            "path": "/usr/lib/jvm/java-19-openjdk-amd64",
+            "default": true
+        }
+    ],
+    "extensions.ignoreRecommendations": true,
+    "[latex]": {
+        "editor.defaultFormatter": "lenagain.latexindent"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "workbench.startupEditor": "none",
+    "redhat.telemetry.enabled": false,
+    "cmake.configureOnOpen": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.showOptionsMovedNotification": false,
+    "vhdl.formatter.align.port": true,
+    "vhdl.formatter.align.generic": true,
+    "vhdl.formatter.align.all": true,
+    "C_Cpp.default.cppStandard": "c++20",
+    "cSpell.enableFiletypes": [
+        "latex"
+    ],
+    "cSpell.enabled": true,
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "vhdl.formatter.case.keyword": "LowerCase",
+    "vhdl.formatter.align.procedure": true,
+    "vhdl.formatter.insertFinalNewline": true,
+    "vhdl.formatter.align.function": true,
+    "editor.stickyScroll.enabled": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "matlab.interrupt"
+    ],
+    "explorer.confirmDelete": false,
+    "latex-workshop.latex.clean.method": "glob",
+    "latex-workshop.latex.clean.fileTypes": [
+        "%DOCFILE%.aux",
+        "%DOCFILE%.bbl",
+        "%DOCFILE%.blg",
+        "%DOCFILE%.idx",
+        "%DOCFILE%.ind",
+        "%DOCFILE%.lof",
+        "%DOCFILE%.lot",
+        "%DOCFILE%.out",
+        "%DOCFILE%.toc",
+        "%DOCFILE%.acn",
+        "%DOCFILE%.acr",
+        "%DOCFILE%.alg",
+        "%DOCFILE%.glg",
+        "%DOCFILE%.glo",
+        "%DOCFILE%.gls",
+        "%DOCFILE%.fls",
+        "%DOCFILE%.log",
+        "%DOCFILE%.fdb_latexmk",
+        "%DOCFILE%.snm",
+        "%DOCFILE%.synctex(busy)",
+        "%DOCFILE%.synctex.gz(busy)",
+        "%DOCFILE%.nav",
+        "%DOCFILE%.vrb",
+        "%DOCFILE%.run.xml",
+        "%DOCFILE%.synctex.gz",
+        "%DOCFILE%.bcf",
+        "%DOCFILE%.xdv",
+        "indent.log",
+        "missfont.log"
+    ],
+    "latex-workshop.latex.tools": [
+    
+
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "lualatexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-lualatex",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "xelatexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-shell-escape",
+                "-f",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-xelatex",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "latexmk_rconly",
+            "command": "latexmk",
+            "args": [
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "biber",
+            "command": "biber",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "makeglossaries",
+            "command": "makeglossaries",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "rnw2tex",
+            "command": "Rscript",
+            "args": [
+                "-e",
+                "knitr::opts_knit$set(concordance = TRUE); knitr::knit('%DOCFILE_EXT%')"
+            ],
+            "env": {}
+        },
+        {
+            "name": "jnw2tex",
+            "command": "julia",
+            "args": [
+                "-e",
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"tex\")"
+            ],
+            "env": {}
+        },
+        {
+            "name": "jnw2texminted",
+            "command": "julia",
+            "args": [
+                "-e",
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pnw2tex",
+            "command": "pweave",
+            "args": [
+                "-f",
+                "tex",
+                "%DOC_EXT%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pnw2texminted",
+            "command": "pweave",
+            "args": [
+                "-f",
+                "texminted",
+                "%DOC_EXT%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "tectonic",
+            "command": "tectonic",
+            "args": [
+                "--synctex",
+                "--keep-logs",
+                "%DOC%.tex"
+            ],
+            "env": {}
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "latexmk (biber)",
+            "tools": [
+                "latexmk",
+                "biber",
+                "latexmk",
+            ]
+        },
+        {
+            "name": "latexmk (latexmkrc)",
+            "tools": [
+                "latexmk_rconly"
+            ]
+        },
+        {
+            "name": "latexmk (lualatex)",
+            "tools": [
+                "lualatexmk"
+            ]
+        },
+        {
+            "name": "latexmk (xelatex)",
+            "tools": [
+                "xelatexmk"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex * 2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xelatex -> biber -> makeglossaries -> xelatex * 2",
+            "tools": [
+                "xelatex",
+                "biber",
+                "makeglossaries",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "Compile Rnw files",
+            "tools": [
+                "rnw2tex",
+                "latexmk"
+            ]
+        },
+        {
+            "name": "Compile Jnw files",
+            "tools": [
+                "jnw2tex",
+                "latexmk"
+            ]
+        },
+        {
+            "name": "Compile Pnw files",
+            "tools": [
+                "pnw2tex",
+                "latexmk"
+            ]
+        },
+        {
+            "name": "tectonic",
+            "tools": [
+                "tectonic"
+            ]
+        }
+    ],
+    // "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
+    // "latex-workshop.latex.recipe.default": "latexmk (biber)",
+    "latex-workshop.latex.recipe.default": "latexmk",
+    "latex-workshop.formatting.latexindent.path": "/usr/local/texlive/2025/bin/x86_64-linux//latexindent",
+    "latex-workshop.formatting.latex": "latexindent",
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "window.zoomLevel": 1,
+    "spellright.language": [
+        "English (American)",
+        "Polish"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
+    "editor.inlineSuggest.syntaxHighlightingEnabled": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "zencoder.inlineSuggestions.enable": false,
+    "C_Cpp.default.compilerPath": "/home/wchocian/.local/bin/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc",
+    "cSpell.enabledFileTypes": {
+        "cpp": false
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}

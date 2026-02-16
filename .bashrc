@@ -116,8 +116,4 @@ fi
 which fzf > /dev/null 2>&1 &&
     eval "$(fzf --bash)"
 
-# Homebrew
-[[ -e /home/linuxbrew/.linuxbrew/bin/brew ]] &&
-    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
 date "+%d-%m-%y %H:%M"

@@ -114,6 +114,7 @@ let mapleader=" "
 noremap <Leader>ww :w<Cr>
 noremap <Leader>qq :q<Cr>
 noremap <Leader>wq :wq<Cr>
+noremap <F4> :nohl<Cr>
 
 autocmd FileType markdown noremap <Leader>ff :Neoformat denofmt<Cr>
 autocmd FileType markdown vnoremap <C-i> c__<Esc><S-p><S-f>*lvf*h

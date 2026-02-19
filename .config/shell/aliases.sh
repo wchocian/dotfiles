@@ -2,9 +2,12 @@
 # Aliases for XDG compliance 
 #
 # wget
+[ -f  $HOME/.wget-hsts ] && mv $HOME/.wget-hsts $XDG_CACHE_HOME/wget-hsts
 alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts"'
 
 # yarn
+[ ! -d $XDG_CONFIG_HOME/yarn/ ] && mkdir $XDG_CONFIG_HOME/yarn/
+[ -f  $HOME/.yarnrc ] && mv $HOME/.yarnrc $XDG_CONFIG_HOME/config
 alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'
 
 # moc
@@ -20,8 +23,15 @@ alias mvn='mvn -gs "$XDG_CONFIG_HOME"/maven/settings.xml'
 
 # -----------------------------------------------------------------------------
 # Convienience aliases
-# 
-
+alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias ll='ls -AlF'
+alias la='ls -A'
+alias l='ls -CF'
 alias lg='lazygit'
 alias sserver='ssh -X wchocian@lab09011.elka.pw.edu.pl'
 alias apply='python3 $HOME/GIT/imedit/filters.py'
@@ -40,6 +50,7 @@ alias ls='ls --color=auto'
 alias tree='tree -C'
 alias upt='sudo apt-get update &&\
     sudo apt-get upgrade -y --fix-missing;\
-    sudo apt-get autoremove -y'
+    sudo apt-get autoremove -y\
+    sudo apt-get clean'
 
 alias fzf='fzf --bind "enter:execute(open {} >/tmp/null 2>&1 &; disown)"'
